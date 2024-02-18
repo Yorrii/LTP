@@ -4,7 +4,7 @@ Tento repozitář obsahuje konfiguraci a modifikace pro vytvoření vlastního M
 
 ## Požadovaný software
 
-1. **Git:** Instalujte Git podle návodu dostupného na [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+1. **Git:** nainstalujte Git podle návodu dostupného na [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. **Docker Desktop s WSL:** Nainstalujte Docker Desktop s Windows Subsystem for Linux (WSL) podle pokynů dostupných na [docker.com](https://docs.docker.com/desktop/install/windows-install-wsl/).
 3. **Curse Forge:** Stáhněte Curse Forge z oficiálního webu [curseforge.com](https://www.curseforge.com/). 
 4. **Minecraft:** Nainstalujte Minecraft, ideálně ve verzi kompatibilní s modifikacemi na serveru.
