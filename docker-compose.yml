@@ -9,12 +9,12 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE" # proměnná, která je potřeba pro spuštění image. Mělo by jít o licence
-      TYPE: "AUTO_CURSEFORGE" # type, který určuje o jaký typ hry se jedná. Default(Vanilla)
+      TYPE: "FABRIC" # type, který určuje o jaký typ hry se jedná. Default(Vanilla)
       CF_API_KEY: "$$2a$$10$$n04nj5xoUJ4XbwWFalH7vujbF4cE2Byxn5FsXQK0eESEGYjUbzAdO" # Klíc pro přístup, získáme na stránce CurseForge
-      CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/5094721" # mod-pack a jeho verze
+      CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/darkrpg/files/5116196" # mod-pack a jeho verze
       # CF_EXCLUDE_MODS: (pokud máme nějaké módy client-side, zde je můžeme excludnout z downloadu)
       MEMORY: "4G" # možnost kontejneru použít více RAM
       VERSION: "1.20.1" # verze Minecraftu, na ktére se server spustí
     volumes:
-      - .\data:/data # Kam se lokálně budou a odkud se budou načítat data 
-    restart: on-failure:2 # Restart při pádu, pokusí se o to dvakrát
+      - ./data:/data # Kam se lokálně budou a odkud se budou načítat data 
+    restart: on-failure:1 # Restart při pádu, pokusí se o to dvakrát

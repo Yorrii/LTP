@@ -1,384 +1,57 @@
-[18Feb2024 18:00:16.976] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.17, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[18Feb2024 18:00:16.992] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.79.1-microsoft-standard-WSL2
-[18Feb2024 18:00:32.202] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18Feb2024 18:00:32.225] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[18Feb2024 18:00:32.303] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[18Feb2024 18:00:32.307] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
-[18Feb2024 18:00:32.359] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[18Feb2024 18:00:32.463] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/data/mods/Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/ Service=ModLauncher Env=SERVER
-[18Feb2024 18:00:36.463] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.17/fmlcore-1.20.1-47.2.17.jar is missing mods.toml file
-[18Feb2024 18:00:36.500] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.17/javafmllanguage-1.20.1-47.2.17.jar is missing mods.toml file
-[18Feb2024 18:00:36.535] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.17/lowcodelanguage-1.20.1-47.2.17.jar is missing mods.toml file
-[18Feb2024 18:00:36.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.17/mclanguage-1.20.1-47.2.17.jar is missing mods.toml file
-[18Feb2024 18:00:41.396] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[18Feb2024 18:00:41.400] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: terrablender. Using Mod File: /data/mods/TerraBlender-forge-1.20.1-3.0.1.4.jar
-[18Feb2024 18:00:41.402] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: aeroblender. Using Mod File: /data/mods/aeroblender-1.20.1-1.0.1-neoforge.jar
-[18Feb2024 18:00:41.403] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /data/mods/curios-forge-5.7.0+1.20.1.jar
-[18Feb2024 18:00:41.405] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 86 dependencies adding them to mods collection
-[18Feb2024 18:00:53.662] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 6 candidates to load
-[18Feb2024 18:01:19.902] [main/INFO] [Configured Defaults/]: Applying default files...
-[18Feb2024 18:01:19.957] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
-	Mod ID: 'embeddium', Requested by: 'lazurite', Expected range: '[0.2.5,0.4)', Actual version: '[MISSING]'
-[18Feb2024 18:01:20.662] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[18Feb2024 18:01:30.266] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18Feb2024 18:01:32.674] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[18Feb2024 18:01:32.687] [main/ERROR] [dev.su5ed.sinytra.connector.loader.ConnectorEarlyLoader/]: Skipping early mod setup due to previous error
-[18Feb2024 18:01:32.696] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[18Feb2024 18:01:33.329] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.13.0+mc1.20.1: 74 options available, 13 override(s) found
-[18Feb2024 18:01:33.332] [main/WARN] [ModernFix/]: Option 'mixin.perf.deduplicate_wall_shapes' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.334] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.336] [main/WARN] [ModernFix/]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
-[18Feb2024 18:01:33.337] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
-[18Feb2024 18:01:33.339] [main/WARN] [ModernFix/]: Option 'mixin.perf.cache_strongholds' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.341] [main/WARN] [ModernFix/]: Option 'mixin.perf.faster_texture_stitching' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.342] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.buffer_builder_leak' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.344] [main/WARN] [ModernFix/]: Option 'mixin.perf.nbt_memory_usage' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.345] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.chunk_deadlock' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.348] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.349] [main/WARN] [ModernFix/]: Option 'mixin.launch.class_search_cache' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.351] [main/WARN] [ModernFix/]: Option 'mixin.perf.datapack_reload_exceptions' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.353] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_dfu' overriden (by load error) to 'false'
-[18Feb2024 18:01:33.355] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[18Feb2024 18:01:33.406] [main/WARN] [ModernFix/]: Applying ATs from 124 mods despite being in errored state, this might cause a crash!
-[18Feb2024 18:01:33.730] [main/WARN] [ModernFix/]: Disabling plugin 'mixin': org.spongepowered.asm.launch.MixinLaunchPlugin
-[18Feb2024 18:01:33.771] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[18Feb2024 18:01:33.968] [main/WARN] [mixin/]: Reference map 'lmft-common-refmap.json' for lmft-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:33.991] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:34.110] [main/WARN] [mixin/]: Reference map 'ysnsforge.refmap.json' for ysns.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:34.144] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:34.172] [main/WARN] [mixin/]: Reference map 'cuisinedelight.refmap.json' for cuisinedelight.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:34.279] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 126 options available, 126 override(s) found
-[18Feb2024 18:01:34.680] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:34.903] [main/WARN] [mixin/]: Failed to select mixin config: immediatelyfast-forge.mixins.json
-java.lang.NullPointerException: null
-	at java.util.Optional.orElseThrow(Unknown Source) ~[?:?]
-	at net.raphimc.immediatelyfast.ImmediatelyFast.earlyInit(ImmediatelyFast.java:70) ~[ImmediatelyFast-Forge-1.2.10+1.20.4.jar%23446!/:?]
-	at net.raphimc.immediatelyfast.injection.ImmediatelyFastMixinPlugin.onLoad(ImmediatelyFastMixinPlugin.java:37) ~[ImmediatelyFast-Forge-1.2.10+1.20.4.jar%23446!/:?]
-	at org.spongepowered.asm.mixin.transformer.PluginHandle.onLoad(PluginHandle.java:119) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinConfig.onSelect(MixinConfig.java:709) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.selectConfigs(MixinProcessor.java:498) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:460) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Unknown Source) ~[?:?]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.lambda$updateModuleReads$0(ConnectorLoaderService.java:60) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332!/:1.0.0-beta.36+1.20.1]
-	at cpw.mods.modlauncher.api.LamdbaExceptionUtils.uncheck(LamdbaExceptionUtils.java:95) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.updateModuleReads(ConnectorLoaderService.java:60) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332!/:1.0.0-beta.36+1.20.1]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.2.17.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:207) ~[fmlloader-1.20.1-47.2.17.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.2.17.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[18Feb2024 18:01:34.972] [main/INFO] [Puzzles Lib/]: Loading 2 mods:
-	- forge 47.2.17
+[21:17:49] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[21:17:49] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.15.7
+	   \-- mixinextras 0.3.5
+	- java 17
 	- minecraft 1.20.1
-[18Feb2024 18:01:34.993] [main/ERROR] [mixin/]: Error loading companion plugin class [dev.lambdaurora.lambdynlights.LambDynLightsMixinPlugin] for mixin config [lambdynlights.mixins.json]. The plugin may be out of date: InvocationTargetException:null
-java.lang.reflect.InvocationTargetException: null
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
-	at org.spongepowered.asm.mixin.transformer.PluginHandle.<init>(PluginHandle.java:97) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinConfig.onSelect(MixinConfig.java:708) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.selectConfigs(MixinProcessor.java:498) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:460) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332%23336!/:0.12.8+mixin.0.8.5]
-	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Unknown Source) ~[?:?]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.lambda$updateModuleReads$0(ConnectorLoaderService.java:60) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332!/:1.0.0-beta.36+1.20.1]
-	at cpw.mods.modlauncher.api.LamdbaExceptionUtils.uncheck(LamdbaExceptionUtils.java:95) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.updateModuleReads(ConnectorLoaderService.java:60) ~[Connector-1.0.0-beta.36+1.20.1.jar%23332!/:1.0.0-beta.36+1.20.1]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.2.17.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:207) ~[fmlloader-1.20.1-47.2.17.jar%2369!/:1.0]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.2.17.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraftforge.fml.ModList.getModContainerById(String)" because the return value of "net.minecraftforge.fml.ModList.get()" is null
-	at dev.lambdaurora.lambdynlights.LambDynLightsCompat.isRubidium07XInstalled(LambDynLightsCompat.java:49) ~[Ryoamiclights-0.1.7+1.20.1.jar%23506!/:?]
-	at dev.lambdaurora.lambdynlights.LambDynLightsMixinPlugin.<init>(LambDynLightsMixinPlugin.java:36) ~[Ryoamiclights-0.1.7+1.20.1.jar%23506!/:?]
-	... 40 more
-[18Feb2024 18:01:35.057] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:35.322] [main/WARN] [mixin/]: Reference map 'suppsquared-common-refmap.json' for suppsquared-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:35.328] [main/WARN] [mixin/]: Reference map 'suppsquared-forge-refmap.json' for suppsquared.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:01:35.414] [Thread-1/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[18Feb2024 18:01:35.738] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Feb2024 18:02:22.367] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[18Feb2024 18:02:22.388] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[18Feb2024 18:02:22.390] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod (unknown)
-[18Feb2024 18:02:22.401] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[18Feb2024 18:02:22.403] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[18Feb2024 18:02:22.405] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod (unknown)
-[18Feb2024 18:02:30.821] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.EntityMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.838] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.EntityTrackingSectionMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.843] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.ServerEntityManagerAccessor' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.862] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.ServerEntityManagerListenerMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.868] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.ServerEntityManagerMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.882] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.ServerWorldAccessor' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.888] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.goals.FleeEntityGoalMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.904] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.nearby_entity_tracking.goals.LookAtEntityGoalMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.924] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.pathing.AbstractBlockStateMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.950] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.pathing.BirdPathNodeMakerMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.958] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.pathing.ChunkCacheMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.969] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.pathing.LandPathNodeMakerMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:30.975] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.pathing.MixinBlock' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.000] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.PointOfInterestSetMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.044] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.PointOfInterestStorageMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.073] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.PointOfInterestTypesMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.106] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.SerializingRegionBasedStorageMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.136] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.fast_portals.PointOfInterestStorageMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.162] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.fast_portals.PortalForcerMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.184] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.tasks.HideInHomeTaskMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.208] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.poi.tasks.RaiderEntityAttackHomeGoalMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.229] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.raid.PickupBannerAsLeaderGoalMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.259] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.raid.RaiderEntityMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.279] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.raid.RaidMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.294] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.sensor.secondary_poi.SecondaryPointsOfInterestSensorMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.346] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.task.launch.BrainMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.370] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.381] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.405] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.task.replace_streams.CompositeTaskMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.427] [main/WARN] [Radium Config/]: Force-disabling mixin 'ai.task.replace_streams.WeightedListMixin' as option 'mixin.ai' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.459] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.480] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.chunk_random.ServerWorldMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.504] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.chunk_random.WorldMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.528] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.558] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.composter.ComposterMixin$ComposterBlockComposterInventoryMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.577] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.composter.ComposterMixin$ComposterBlockDummyInventoryMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.609] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.composter.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.637] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.deep_passengers.EntityMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.662] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.entity_tracker.EntityTrackerMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.684] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.enum_values.living_entity.LivingEntityMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.699] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.enum_values.piston_block.PistonBlockMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.710] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.enum_values.piston_handler.PistonHandlerMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.717] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.enum_values.redstone_wire.RedstoneWireBlockMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.739] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.explosion_behavior.EntityExplosionBehaviorMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.747] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.nbt.NbtCompoundMixin' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.767] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.nbt.NbtCompoundMixin$Type' as option 'mixin.alloc' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.790] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.flatten_states.FluidStateMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.800] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.AbstractMinecartEntityMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.821] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ChestBoatEntityMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.829] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockComposterInventoryMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.853] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockDummyInventoryMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.863] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ComposterMixin$ComposterBlockFullComposterInventoryMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.894] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.DefaultedListAccessor' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.937] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.DoubleInventoryAccessor' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.957] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.EntityAccessor' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.965] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.EntityDataObjectMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:31.972] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.EntityTrackingSectionAccessor' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.057] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.HopperBlockEntityMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.104] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.HopperBlockMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.136] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorAbstractFurnaceBlockEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.175] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorBarrelBlockEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.206] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorBrewingStandBlockEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.241] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorChestBlockEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.270] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorDispenserBlockEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.311] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorHopperBlockEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.338] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorShulkerBoxBlockEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.357] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryAccessors$InventoryAccessorStorageMinecartEntity' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.363] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.InventoryMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.380] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ItemStackMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.387] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.ScreenHandlerMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.399] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.TypeFilterableListMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.405] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.WorldMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.415] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.455] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.moving_block_shapes.PistonBlockEntityMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.479] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:32.490] [main/WARN] [Radium Config/]: Force-disabling mixin 'block.redstone_wire.RedstoneWireBlockMixin' as option 'mixin.block' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.663] [main/WARN] [Radium Config/]: Force-disabling mixin 'cached_hashcode.BlockNeighborGroupMixin' as option 'mixin.cached_hashcode' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.677] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.entity_class_groups.EntityTrackingSectionAccessor' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.689] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.entity_class_groups.ServerEntityManagerAccessor' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.702] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.entity_class_groups.ServerWorldAccessor' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.714] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.entity_class_groups.TypeFilterableListMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.726] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.no_locking.ChunkSectionMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.742] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.no_locking.PalettedContainerMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.756] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.no_validation.EmptyPaletteStorageMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.766] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.no_validation.PackedIntegerArrayMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.779] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.palette.PalettedContainerMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.790] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.serialization.PackedIntegerArrayMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.798] [main/WARN] [Radium Config/]: Force-disabling mixin 'chunk.serialization.PalettedContainerMixin' as option 'mixin.chunk' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.805] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.attributes.AttributeContainerMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.811] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.block_entity_tickers.WorldChunkMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.818] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.brain.BrainMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.824] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.entity_by_type.TypeFilterableListMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.836] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.entity_filtering.TypeFilterableListMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.855] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.entity_ticking.EntityListMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.863] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.fluid_submersion.EntityMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.869] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.gamerules.GameRulesMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.875] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.goals.GoalSelectorMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:46.886] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.mob_spawning.PoolMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.711] [main/WARN] [Radium Config/]: Force-disabling mixin 'collections.mob_spawning.SpawnSettingsMixin' as option 'mixin.collections' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.718] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.fluid.EntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.730] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.intersection.WorldMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.737] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.movement.EntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.746] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.AbstractMinecartEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.752] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.BoatEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.757] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.763] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityPredicatesMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.770] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityTrackingSectionMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.774] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.collisions.unpushable_cramming.LivingEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.779] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.data_tracker.no_locks.DataTrackerMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.785] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.data_tracker.use_arrays.DataTrackerMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.790] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.fast_elytra_check.LivingEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.799] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.fast_hand_swing.LivingEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.804] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.fast_powder_snow_check.LivingEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.810] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.fast_retrieval.SectionedEntityCacheMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.814] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.hopper_minecart.HopperBlockEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.819] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.inactive_navigations.DrownedEntityLeaveWaterGoalMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.823] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.inactive_navigations.DrownedEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:50.828] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.inactive_navigations.EntityNavigationMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.438] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.inactive_navigations.MobEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.451] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.inactive_navigations.ServerEntityHandlerMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.455] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.inactive_navigations.ServerWorldMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.461] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.replace_entitytype_predicates.AbstractDecorationEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.467] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.replace_entitytype_predicates.AbstractMinecartEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.478] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.replace_entitytype_predicates.ArmorStandEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.482] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.replace_entitytype_predicates.FormCaravanGoalMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.487] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.replace_entitytype_predicates.IronGolemWanderAroundGoalMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.493] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.replace_entitytype_predicates.ItemFrameEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.498] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.skip_equipment_change_check.ArmorStandEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.508] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.skip_equipment_change_check.LivingEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.514] [main/WARN] [Radium Config/]: Force-disabling mixin 'entity.skip_equipment_change_check.MobEntityMixin' as option 'mixin.entity' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.520] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.chunk_tickets.ChunkTicketManagerMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.525] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.entity.block_caching.EntityMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.530] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.entity.block_caching.block_support.EntityMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.537] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.entity.block_caching.block_touching.EntityMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.542] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.entity.block_caching.fire_lava_touching.EntityMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.548] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.entity.block_caching.fluid_pushing.EntityMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.553] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.entity.block_caching.suffocation.EntityMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:51.558] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.spawning.EntityTrackingSectionAccessor' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.685] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.spawning.SectionedEntityCacheMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.693] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.spawning.ServerChunkManagerMixin' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.698] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.spawning.ServerEntityManagerAccessor' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.702] [main/WARN] [Radium Config/]: Force-disabling mixin 'experimental.spawning.ServerWorldAccessor' as option 'mixin.experimental' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.707] [main/WARN] [Radium Config/]: Force-disabling mixin 'gen.cached_generator_settings.NoiseChunkGeneratorMixin' as option 'mixin.gen' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.712] [main/WARN] [Radium Config/]: Force-disabling mixin 'gen.chunk_region.ChunkRegionMixin' as option 'mixin.gen' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.718] [main/WARN] [Radium Config/]: Force-disabling mixin 'math.fast_blockpos.BlockPosMixin' as option 'mixin.math' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.723] [main/WARN] [Radium Config/]: Force-disabling mixin 'math.fast_blockpos.DirectionMixin' as option 'mixin.math' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.728] [main/WARN] [Radium Config/]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$BackwardMixin' as option 'mixin.math' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.740] [main/WARN] [Radium Config/]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$ForwardMixin' as option 'mixin.math' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.752] [main/WARN] [Radium Config/]: Force-disabling mixin 'math.fast_util.BoxMixin' as option 'mixin.math' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.758] [main/WARN] [Radium Config/]: Force-disabling mixin 'math.fast_util.DirectionMixin' as option 'mixin.math' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.764] [main/WARN] [Radium Config/]: Force-disabling mixin 'math.sine_lut.MixinMathHelper' as option 'mixin.math' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.768] [main/WARN] [Radium Config/]: Force-disabling mixin 'profiler.ServerWorldMixin' as option 'mixin.profiler' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.773] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.blockstate_cache.BlockMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.779] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.lazy_shape_context.EntityShapeContextMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.784] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.optimized_matching.VoxelShapesMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.790] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.precompute_shape_arrays.FractionalDoubleListMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.796] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.precompute_shape_arrays.SimpleVoxelShapeMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:02:55.801] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.shape_merging.VoxelShapesMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.147] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.specialized_shapes.VoxelShapeMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.152] [main/WARN] [Radium Config/]: Force-disabling mixin 'shapes.specialized_shapes.VoxelShapesMixin' as option 'mixin.shapes' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.157] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.block_entity_retrieval.WorldMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.162] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.block_tracking.AbstractBlockStateMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.170] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.block_tracking.ChunkSectionMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.175] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.block_tracking.block_listening.WorldMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.182] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.chunk_access.ChunkCacheMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.200] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.chunk_access.WorldViewMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.205] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.entity_movement_tracking.EntityTrackingSectionMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.209] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.entity_movement_tracking.SectionedEntityCacheMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.214] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.entity_movement_tracking.ServerEntityManagerAccessor' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.219] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.entity_movement_tracking.ServerEntityManagerListenerMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.224] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.entity_movement_tracking.ServerWorldAccessor' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.230] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.entity_section_position.EntityTrackingSectionMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.236] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.entity_section_position.SectionedEntityCacheMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.247] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.BlockEntityMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.252] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.ChestBlockEntityMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:03.258] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.LockableContainerBlockEntityMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:05.966] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$InventoryChangeTrackingAbstractFurnaceBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:05.971] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$InventoryChangeTrackingBarrelBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:05.977] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$InventoryChangeTrackingBrewingStandBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:05.983] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$InventoryChangeTrackingChestBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:05.990] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$InventoryChangeTrackingDispenserBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:05.999] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$InventoryChangeTrackingHopperBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.004] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$InventoryChangeTrackingShulkerBoxBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.009] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_change_listening.StackListReplacementTracking$StackListReplacementTrackingLockableContainerBlockEntity' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.022] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_comparator_tracking.BlockEntityMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.027] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.inventory_comparator_tracking.ComparatorBlockMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.034] [main/WARN] [Radium Config/]: Force-disabling mixin 'util.world_border_listener.WorldBorderMixin' as option 'mixin.util' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.046] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerWorldMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.052] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WorldChunkMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.059] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WorldMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.064] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.076] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.082] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.090] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.095] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.101] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.107] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.112] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.117] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.support_cache.BlockEntityMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.122] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.support_cache.DirectBlockEntityTickInvokerMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.126] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.support_cache.WorldChunkMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.133] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.138] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.chunk_access.ChunkHolderMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.148] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.chunk_access.ServerChunkManagerMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.153] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.chunk_access.WorldMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.158] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.chunk_tickets.SortedArraySetMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.163] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.chunk_ticking.spread_ice.BiomeMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.169] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.combined_heightmap_update.HeightmapAccessor' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.177] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.combined_heightmap_update.WorldChunkMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.186] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.explosions.ExplosionMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.191] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.inline_block_access.WorldChunkMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.199] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.inline_block_access.WorldMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.204] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.inline_height.WorldChunkMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.704] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.inline_height.WorldMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.709] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.713] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.temperature_cache.BiomeMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:06.722] [main/WARN] [Radium Config/]: Force-disabling mixin 'world.tick_scheduler.ChunkTickSchedulerMixin' as option 'mixin.world' (added by mods [fml-loading-error]) disables it and children
-[18Feb2024 18:03:07.620] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/ShareToLanScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.ShareToLanScreen)
-[18Feb2024 18:03:07.624] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.ShareToLanScreen was not found luna.mixins.json:LANMixin from mod (unknown)
-[18Feb2024 18:03:09.348] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: recipeessentials.json
-[18Feb2024 18:03:10.333] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
-[18Feb2024 18:03:11.103] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/resolver/ServerAddressResolver (java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.resolver.ServerAddressResolver)
-[18Feb2024 18:03:11.106] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.resolver.ServerAddressResolver was not found fastipping.mixins.json:AddressResolverMixin from mod (unknown)
-[18Feb2024 18:03:12.198] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[18Feb2024 18:03:12.202] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin from mod (unknown)
-[18Feb2024 18:03:12.265] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER
-[18Feb2024 18:03:12.269] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/multiplayer/ServerSelectionList (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER)
-[18Feb2024 18:03:12.271] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.multiplayer.ServerSelectionList was not found serverbrowser.mixins.json:ServerSelectionMixin from mod (unknown)
-[18Feb2024 18:03:14.192] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
-[18Feb2024 18:03:14.844] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
-[18Feb2024 18:03:14.853] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor from mod (unknown)
-[18Feb2024 18:03:15.013] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[18Feb2024 18:03:15.016] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[21:17:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[21:18:14] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:18:30] [main/INFO]: Loaded 7 recipes
+[21:18:31] [main/INFO]: Loaded 1271 advancements
+[21:18:32] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:18:32] [Server thread/INFO]: Loading properties
+[21:18:32] [Server thread/INFO]: Default game type: SURVIVAL
+[21:18:32] [Server thread/INFO]: Generating keypair
+[21:18:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:18:32] [Server thread/INFO]: Using epoll channel type
+[21:18:34] [Server thread/INFO]: Preparing level "world"
+[21:18:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:18:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:18:43] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:18:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:18:44] [Worker-Main-6/INFO]: Preparing spawn area: 7%
+[21:18:44] [Worker-Main-4/INFO]: Preparing spawn area: 23%
+[21:18:45] [Worker-Main-3/INFO]: Preparing spawn area: 67%
+[21:18:45] [Worker-Main-10/INFO]: Preparing spawn area: 88%
+[21:18:45] [Server thread/INFO]: Time elapsed: 9186 ms
+[21:18:45] [Server thread/INFO]: Done (11.470s)! For help, type "help"
+[21:18:45] [Server thread/INFO]: Starting remote control listener
+[21:18:45] [Server thread/INFO]: Thread RCON Listener started
+[21:18:45] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[21:18:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[21:24:24] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[21:24:24] [Server thread/INFO]: [Rcon: Stopping the server]
+[21:24:24] [Server thread/INFO]: Stopping server
+[21:24:24] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[21:24:24] [Server thread/INFO]: Saving players
+[21:24:24] [Server thread/INFO]: Saving worlds
+[21:24:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:24:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:24:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:24:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:24:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:24:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:24:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:24:30] [Server thread/INFO]: Thread RCON Listener stopped
